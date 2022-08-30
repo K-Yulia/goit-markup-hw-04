@@ -137,7 +137,9 @@ section {
   display: flex;
   margin-left: auto;
   margin-right: 50px;
+  align-items: center;
   }
+
 .contact-tel {
   display: flex;
   margin-left: 0;
@@ -146,8 +148,7 @@ section {
 
 .contact-ikon {
   margin-right: 10px;
-  align-items: baseline;
-  fill: currentColor;
+   fill: currentColor;
 }
 
 .contact-mailto,
@@ -171,6 +172,9 @@ section {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--background-color-hero);
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -368,8 +372,7 @@ section {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  padding: 16px 32px;
-}
+  }
 
 .logo-customers {
   align-content: center;
@@ -389,16 +392,16 @@ section {
 /* -- Футер -- */
 .footer-box {
   display: flex;
+  align-items: baseline;
 }
 
 .page-footer {
   background-color: var(--background-color-footer);
+  padding: 60px 0;
 }
 .footer-left {
  align-items: baseline;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
+  }
 
 .logo-footer {
   font-family: var(--secondary-font);
@@ -451,10 +454,9 @@ section {
 
 .footer-right {
   align-items: baseline;
-  margin-top: 72px;
   margin-left: 70px;
-  margin-bottom: 100px;
-}
+ }
+
 .footer-right-text {
   font-weight: 700;
   font-size: 14px;
